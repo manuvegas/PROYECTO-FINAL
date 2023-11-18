@@ -1,0 +1,158 @@
+.section_inicio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.503);
+}
+.contenedor_inicio {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  align-items: center;
+}
+.h2_inicio {
+  margin-bottom: 5rem;
+  text-decoration: none;
+  font-size: 3rem;
+  color: rgba(24, 39, 204, 0.851);
+  text-align: center;
+}
+.datos {
+  position: relative;
+  margin: 50px 0;
+  width: 410px;
+  border-radius: 6px;
+  background-color: rgba(0, 0, 0, 0.541);
+  color: white;
+}
+.datos label {
+  position: absolute;
+  left: 5px;
+  top: -2px;
+  color: white;
+  font-size: 1.2rem;
+  pointer-events: none;
+}
+.datos input {
+  width: 100%;
+  height: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  padding: 0 35px 0 5px;
+  color: white;
+}
+button {
+  width: 100%;
+  height: 40%;
+  border-radius: 40px;
+  background: white;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.boton_sesion {
+  color: black;
+  text-decoration: none;
+}
+.boton_sesion:hover {
+  color: black;
+}
+button:hover {
+  background-color: rgba(224, 224, 230, 0.332);
+}
+.registrarse {
+  font-size: 0.9rem;
+  color: white;
+  text-align: center;
+  margin: 15px 0 10px;
+}
+.registrarse p a {
+  text-decoration: none;
+  color: rgb(240, 240, 240);
+  font-weight: 600;
+}
+.registrarse p a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 576px) {
+  /*INICIAR SESION*/
+  .h2_inicio {
+    font-size: 4rem;
+  }
+  .datos label {
+    font-size: 1.5rem;
+    position: absolute;
+    top: -21px;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  /*INICIO DE SESION*/
+  .h2_inicio {
+    font-size: 5rem;
+  }
+  .datos label {
+    font-size: 1.8rem;
+    position: absolute;
+    top: -21px;
+  }
+  .contenedor_inicio {
+    width: 550px;
+    height: 560px;
+  }
+  h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+  h3 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  /*INICIAR SESION*/
+  .contenedor_inicio {
+    width: 800px;
+    height: 850px;
+  }
+  .h2_inicio {
+    font-size: 6rem;
+  }
+  .datos {
+    width: 550px;
+    height: 65px;
+  }
+  .datos label {
+    position: absolute;
+    top: -28px;
+    font-size: 2rem;
+  }
+  button {
+    padding: 5px;
+    font-size: 1.9rem;
+  }
+  .registrarse {
+    font-size: 1.6rem;
+  }
+  h2 {
+    font-size: 3.5rem;
+  }
+  h3 {
+    font-size: 3.5rem;
+  }}
+

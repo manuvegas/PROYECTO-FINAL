@@ -1,0 +1,55 @@
+
+.fieldset_envios {
+  background-position: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: solid 5px;
+  color: white;
+  margin-top: 1rem;
+}
+
+.h2_cambios {
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: white;
+  font-size: 3rem;
+}
+
+.h2_cambios p {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin: 1rem;
+  display: inline-block;
+  font-size: 2rem;
+  color: white;
+}
+
+.h3_cambios {
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: white;
+  font-size: 3rem;
+  text-decoration: none;
+}
+
+.h3_cambios p {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  margin: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.texto_envios {
+  font-size: 2rem;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(255, 0, 0);
+  text-align: center;
+}
+
+.titulo {
+  font-size: 2rem;
+  color: rgb(252, 252, 252);
+  font-weight: 800;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}

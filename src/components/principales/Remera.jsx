@@ -19,7 +19,7 @@ function Remera({titulo,img,texto,precio}) {
 }
 
 Remera.propTypes = {
-  titulo:PropTypes.string,
+  titulo:PropTypes.string.isRequired,
   img:PropTypes.string,
   texto:PropTypes.string
 

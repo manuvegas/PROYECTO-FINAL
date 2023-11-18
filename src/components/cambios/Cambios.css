@@ -1,0 +1,32 @@
+.titulo_politica {
+  font-size: 2.9rem;
+  margin-top: 1rem;
+  color: rgb(252, 252, 252);
+}
+
+.fieldset_politica {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: solid 4px;
+  color: white;
+  margin-top: 1rem;
+}
+
+.fieldset_politica p {
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  margin: 1rem;
+  font-size: 2rem;
+}
+
+.atencion {
+  color: rgb(255, 0, 0);
+  font-weight: 900;
+  text-decoration: underline;
+}
+.h2_cambios{
+  font-size: 3rem;
+  margin-top: 1rem;
+  color: white;
+  font-size: 3rem;
+}
+

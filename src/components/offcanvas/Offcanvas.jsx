@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import "./Offcanvas.css"
 
 function OffcanvasButton() {
   const [show, setShow] = useState(false);
@@ -13,8 +14,6 @@ function OffcanvasButton() {
       <Button className=" btn text-dark bg-light border-0" onClick={handleShow}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
-          width="1em"
-          height="1em"
           fill="currentColor"
           className="bi bi-cart4 fs-4"
           viewBox="0 0 16 16"
