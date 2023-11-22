@@ -1,6 +1,5 @@
 .titulo_politica {
   font-size: 2.9rem;
-  margin-top: 1rem;
   color: rgb(252, 252, 252);
 }
 
@@ -28,5 +27,6 @@
   margin-top: 1rem;
   color: white;
   font-size: 3rem;
+  text-align: center;
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Remeras.css";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 
 function Remera({titulo,img,texto,precio}) {
@@ -11,15 +12,19 @@ function Remera({titulo,img,texto,precio}) {
             <h3 className="card-title fs-1">{titulo}</h3>
             <p className="card-text">{texto}</p>
             <span>{precio}</span>
-            <a href="#" className="btn">COMPRAR</a>
-            <a href="#" className='btn'> AGREGAR AL CARRITO</a>
+            <Link to="" className="btn">
+               COMPRAR
+            </Link>
+            <Link to="" className="btn">
+              AGREGAR AL CARRITO
+            </Link>
         </div>
     </div>
   )
 }
 
 Remera.propTypes = {
-  titulo:PropTypes.string.isRequired,
+  titulo:PropTypes.string,
   img:PropTypes.string,
   texto:PropTypes.string
 

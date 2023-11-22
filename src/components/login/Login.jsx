@@ -2,7 +2,7 @@ import React from "react";
 import "./Login.css";
 const Login = () => {
   return (
-    <section className="section_inicio">
+    <section className="section_inicio animate__animated animate__slideInLeft">
       <div className="contenedor_inicio">
         <div className="inicio">
           <form action="">
@@ -10,7 +10,7 @@ const Login = () => {
             <div className="datos">
               <input type="email" />
               <label for="email">
-                Email{" "}
+                Email
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="1.5rem"

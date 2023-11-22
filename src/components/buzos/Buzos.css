@@ -1,0 +1,43 @@
+.prendas {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.prendas div {
+  text-align: center;
+  width: 30rem;
+  background-color: rgb(214, 214, 214);
+  color: rgb(15, 15, 15);
+  font-weight: 100;
+  font-size: 1.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 2rem;
+  display: inline;
+}
+.prendas div:hover {
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273);
+  transition: all 0.7s linear;
+}
+.prendas img {
+  height: 70%;
+}
+.prendas a {
+  font-size: 1.5rem;
+  background-color: black;
+  color: white;
+  border-color: black;
+  margin-left: 2rem;
+  display: inline;
+}
+.prendas a:hover {
+  background-color: rgb(35, 35, 35);
+  color: white;
+}
+
+.prendas span {
+  display: block;
+  margin-bottom: 1rem;
+  color: rgb(35, 35, 35);
+  font-size: 2rem;
+}

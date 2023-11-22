@@ -1,19 +1,18 @@
 import "./App.css";
-import Carrusel from "./components/carousel/Carousel";
-import Footer from "./components/footer/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/header/Header";
-import Remeras from "./components/principales/Remeras";
-import Zapas from "./components/zapas/Zapas";
-import { BrowserRouter as Router,Routes,Route } from "react-router-dom";
 import Form from "./components/formulario/Form";
 import Login from "./components/login/Login";
 import Cambios from "./components/cambios/Cambios";
-import Envios from "./components/envios/envios";
+import Envios from "./components/envios/Envios";
 import RemerasPrendas from "./components/remeras/RemerasPrendas";
-import Buzos from "./components/buzos/buzos";
-import Joggins from "./components/joggins/joggins";
+import Buzos from "./components/buzos/Buzos";
+import Joggins from "./components/joggins/Joggins";
 import Camperas from "./components/camperas/Camperas";
-
+import "animate.css/animate.min.css";
+import Remeras from "../categoriasPrincipales/Remeras";
+import Zapas from "../zapas/Zapas";
+import Carrusel from "../carousel/Carousel";
 function App() {
   return (
     <>
@@ -21,15 +20,15 @@ function App() {
         <div>
           <Header />
           <div>
-            <Routes> 
-              <Route path="/Login" element={<Login/>}/>
-              <Route path="/formulario" element={<Form/>}/>
-              <Route path="/cambios" element={<Cambios/>}/>
-              <Route path="/envios" element={<Envios/>}/>
-              <Route path="/remeras" element={<RemerasPrendas/>}/>
-              <Route path="/buzos" element={<Buzos/>}/>
-              <Route path="/camperas" element={<Camperas/>}/>
-              <Route path="/joggins" element={<Joggins/>}/>
+            <Routes>
+              <Route path="/Login" element={<Login />} />
+              <Route path="/formulario" element={<Form />} />
+              <Route path="/cambios" element={<Cambios />} />
+              <Route path="/envios" element={<Envios />} />
+              <Route path="/remeras" element={<RemerasPrendas />} />
+              <Route path="/buzos" element={<Buzos />} />
+              <Route path="/camperas" element={<Camperas />} />
+              <Route path="/joggins" element={<Joggins />} />
             </Routes>
           </div>
           <main>
@@ -47,11 +46,10 @@ function App() {
                 <h2 className="animate__animated animate__slideInUp">
                   ZAPATILLAS
                 </h2>
-                <Zapas />
               </nav>
+              <Zapas />
             </section>
           </main>
-          <Footer />
         </div>
       </Router>
     </>

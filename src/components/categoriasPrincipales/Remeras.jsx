@@ -5,6 +5,7 @@ import jordan from "../../assets/img(remeras)/airJordan.jpeg";
 import bermuda from "../../assets/img/bermuda.jpeg";
 import Remera from "./Remera";
 import "./Remeras.css";
+import "animate.css/animate.min.css";
 
 const remeras = [
   {
@@ -36,6 +37,7 @@ const remeras = [
     texto: "Talles del S al XXL",
   },
 ];
+
 const Remeras = () => {
   return (
     <nav className="prendas animate__animated animate__slideInUp">

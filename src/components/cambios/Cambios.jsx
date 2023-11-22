@@ -4,15 +4,15 @@ import "./Cambios.css"
 
 const Cambios = () => {
   return (
-    <div>
-      <h2 class="h2_cambios"> </h2>
-        <i class="titulo_politica">CAMBIOS</i>
-        <fieldset class="fieldset_politica">
+    <div className="animate__animated animate__slideInLeft">
+      <h2 className="h2_cambios"> 
+        <i className="titulo_politica">CAMBIOS</i></h2>
+        <fieldset className="fieldset_politica">
           <div>
             <p>
               - Las prendas se cambian unicamente con bolsa del local,
               <b>
-                <i class="atencion">SIN EXCEPCION</i>
+                <i className="atencion">SIN EXCEPCION</i>
               </b>
               , tiene que estar como la recibieron, sin uso y sin manchas.
             </p>
@@ -25,7 +25,7 @@ const Cambios = () => {
             <p>- Podes cambiarlo sin costo por el local.</p>
             <p>
               -
-              <b class="atencion">
+              <b className="atencion">
                 LOS CAMBIOS SON POR EL MISMO ARTICULO, DE LO CONTRARIO SE LE
                 OTORGA AL COMPRADOR ELEGIR OTRA OPCION,NO INSISTA!
               </b>
@@ -39,7 +39,7 @@ const Cambios = () => {
             </p>
             <p>
               -
-              <b class="atencion">
+              <b className="atencion">
                 NO HACEMOS DEVOLUCION DE DINERO, SOLO CAMBIOS. CUALQUIER DUDA O
                 CONSULTA:
               </b>

@@ -15,16 +15,12 @@ function Header() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-4 my-lg-0 " navbarScroll>
-            <Nav.Link>
               <Link to="/Login" className="link">
                 LOGIN
               </Link>
-            </Nav.Link>
-            <Nav.Link>
-              <Link to="/" className="link">
+              <Link to="/inicio" className="link">
                 HOME
               </Link>
-            </Nav.Link>
             <NavDropdown
               title="PRODUCTOS"
               id="navbarScrollingDropdown"
@@ -57,21 +53,15 @@ function Header() {
               <NavDropdown.Item>JORDAN-NIKE</NavDropdown.Item>
               <NavDropdown.Item>AII-MAX</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link>
               <Link to="/Formulario" className="link">
                 CONTACTOS
               </Link>
-            </Nav.Link>
-            <Nav.Link>
               <Link to="/Cambios" className="link">
                 CAMBIOS
               </Link>
-            </Nav.Link>
-            <Nav.Link>
               <Link to="/Envios" className="link">
                 ENVIOS
               </Link>
-            </Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
