@@ -26,9 +26,8 @@ function OffcanvasButton() {
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>Carrito de compras</Offcanvas.Title>
         </Offcanvas.Header>
-        <Offcanvas.Body>
-          Some text as placeholder. In real life you can have the elements you
-          have chosen. Like, text, images, lists, etc.
+        <Offcanvas.Body >
+          <p className="vacio">CARRITO DE COMPRAS VACIO</p>
         </Offcanvas.Body>
       </Offcanvas>
     </>

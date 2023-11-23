@@ -4,7 +4,7 @@ import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
 
-const RemeraPrenda = (img,titulo,texto,precio) => {
+function RemeraPrenda({img,titulo,texto,precio}){
   return (
     <div className="card container p-1">
         <img src={img} className="card-img-top rounded" alt={titulo}/>

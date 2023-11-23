@@ -5,6 +5,7 @@
   border: solid 5px;
   color: white;
   margin-top: 1rem;
+  text-align: center;
 }
 
 .h2_cambios {
@@ -47,6 +48,7 @@
 }
 
 .titulo {
+  text-align: center;
   font-size: 2rem;
   color: rgb(252, 252, 252);
   font-weight: 800;

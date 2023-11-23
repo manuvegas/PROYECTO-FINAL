@@ -3,6 +3,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   text-align: center;
+  margin-bottom: 60px;
 }
 .prendas div {
   text-align: center;

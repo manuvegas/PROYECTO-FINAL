@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Joggins.css";
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 
 function Joggin({titulo,img,texto,precio}) {

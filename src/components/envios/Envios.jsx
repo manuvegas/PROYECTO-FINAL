@@ -9,7 +9,7 @@ const Envios = () => {
         <i>ENVIOS</i>
       </h2>
       <fieldset className="fieldset_envios">
-        <h2 className="h2_cambios titulo">
+        <h2 className="h2_cambios">
           <i className="titulo">¡ATENCION!</i>
           <p>
             LOS ENVIOS LOS HACEMOS NOSOTROS,POR LO QUE EL ENVIO DEL PRODUCTO

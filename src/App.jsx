@@ -10,9 +10,8 @@ import Buzos from "./components/buzos/Buzos";
 import Joggins from "./components/joggins/Joggins";
 import Camperas from "./components/camperas/Camperas";
 import "animate.css/animate.min.css";
-import Remeras from "../categoriasPrincipales/Remeras";
-import Zapas from "../zapas/Zapas";
-import Carrusel from "../carousel/Carousel";
+import Inicio from "./components/inicio/inicio";
+
 function App() {
   return (
     <>
@@ -29,27 +28,9 @@ function App() {
               <Route path="/buzos" element={<Buzos />} />
               <Route path="/camperas" element={<Camperas />} />
               <Route path="/joggins" element={<Joggins />} />
+              <Route path="/inicio" element={< Inicio/>} />
             </Routes>
           </div>
-          <main>
-            <section>
-              <nav>
-                <h2 className="animate__animated animate__slideInUp">
-                  CATEGORIAS PRINCIPALES
-                </h2>
-                <Remeras />
-              </nav>
-            </section>
-            <Carrusel />
-            <section>
-              <nav>
-                <h2 className="animate__animated animate__slideInUp">
-                  ZAPATILLAS
-                </h2>
-              </nav>
-              <Zapas />
-            </section>
-          </main>
         </div>
       </Router>
     </>

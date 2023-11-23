@@ -6,6 +6,7 @@ import clasicaNike from "../../assets/img(camperas)/classic nike.jpeg";
 import jordanNike from "../../assets/img(camperas)/Jordan nike.jpeg";
 import nikeAir from "../../assets/img(camperas)/nike air.jpeg";
 import nikeJacket from "../../assets/img(camperas)/nike jacket.jpeg";
+import  Campera from "./Campera";
 
 const camperas = [
   {
