@@ -7,7 +7,7 @@
 
 .contactos_flex {
   display: flex;
-  align-items: flex-end;
+  align-items: baseline;
   justify-content: space-evenly;
 }
 
@@ -32,25 +32,16 @@
 
 .fieldset_contactos {
   border-radius: 15px;
-  background-color: rgb(11, 11, 11);
+  background-color: transparent;
   margin-top: 15px;
   margin-bottom: 15px;
 }
 
-.legend_contactos {
-  font-size: 3rem;
-  padding: 5px 5px;
-  background-color: rgba(0, 0, 0, 0.684);
-  border-radius: 15px;
-  font-family: "Courier New", Courier, monospace;
-  color: rgb(215, 216, 218);
-  font-weight: 900;
-}
-
 .label_contactos {
   font-size: 1.5rem;
-  background-color: rgba(0, 0, 0, 0.453);
+  background-color: rgba(0, 0, 0, 0.356);
   padding: 5px 20px;
+  border-radius: 10px;
   color: rgb(255, 255, 255);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -74,16 +65,19 @@
 .input_form {
   font-size: 1.4rem;
   width: 95%;
-  border: solid 5px;
+  border-radius: 10px;
   color: black;
   margin: 12px 1.5rem 12px 1.5rem;
   padding: 5px;
+}
+.input_form:hover{
+  border: solid 2px rgb(0, 0, 0);
 }
 
 .input_msj {
   font-size: 1.4rem;
   width: 95%;
-  border: solid 5px;
+  border-radius: 10px;
   color: black;
   margin: 12px 1.5rem 12px 1.5rem;
   padding: 5px 0 3em;
@@ -94,9 +88,11 @@
   margin-top: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  border-radius: 8px;
   background-color: rgba(16, 16, 16, 0.97);
   color: rgb(255, 255, 255);
   padding: 10px 20px;
+  
 }
 
 @media (min-width: 576px) {

@@ -1,4 +1,3 @@
-
 .fieldset_envios {
   background-position: center;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
@@ -6,16 +5,18 @@
   color: white;
   margin-top: 1rem;
   text-align: center;
+  margin-bottom: 17em;
 }
 
 .h2_cambios {
+  text-align: center;
   font-size: 3rem;
   margin-top: 1rem;
   color: white;
   font-size: 3rem;
 }
 
-.h2_cambios p {
+.texto {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
   margin: 1rem;
@@ -32,14 +33,6 @@
   text-decoration: none;
 }
 
-.h3_cambios p {
-  text-align: center;
-  font-family: "Times New Roman", Times, serif;
-  margin: 1rem;
-  font-size: 2rem;
-  color: white;
-}
-
 .texto_envios {
   font-size: 2rem;
   font-family: "Times New Roman", Times, serif;
@@ -49,6 +42,7 @@
 
 .titulo {
   text-align: center;
+
   font-size: 2rem;
   color: rgb(252, 252, 252);
   font-weight: 800;

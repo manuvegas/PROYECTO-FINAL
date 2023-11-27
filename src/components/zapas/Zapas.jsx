@@ -24,7 +24,7 @@ const zapas = [
   },
   {
     id: 3,
-    tittulo: "AIR-MAX",
+    titulo: "AIR-MAX",
     img: airmax,
     precio: "$88.800",
     texto: "Talles del 38 al 44",

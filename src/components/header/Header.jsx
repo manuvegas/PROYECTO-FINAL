@@ -8,19 +8,20 @@ import OffcanvasButton from "../offcanvas/Offcanvas";
 import { Link } from "react-router-dom";
 import "./Header.css";
 
-function Header() {
+
+function Header(id) {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav className="me-auto my-4 my-lg-0 " navbarScroll>
-              <Link to="/Login" className="link">
-                LOGIN
-              </Link>
-              <Link to="/inicio" className="link">
-                HOME
-              </Link>
+            <Link to="/Login" className="link">
+              LOGIN
+            </Link>
+            <Link to="/inicio" className="link">
+              HOME
+            </Link>
             <NavDropdown
               title="PRODUCTOS"
               id="navbarScrollingDropdown"
@@ -48,20 +49,36 @@ function Header() {
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item>AIRFORCE</NavDropdown.Item>
-              <NavDropdown.Item>RETRO-JORDAN-NIKE</NavDropdown.Item>
-              <NavDropdown.Item>JORDAN-NIKE</NavDropdown.Item>
-              <NavDropdown.Item>AII-MAX</NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to={`/compras/${id}`} className="link">
+                  AIRFORCE
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to={`/compras/${id}`} className="link">
+                  RETRO-JORDAN-NIKE
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to={`/compras/${id}`} className="link">
+                  JORDAN-NIKE
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to={`/compras/${id}`} className="link">
+                  AII-MAX
+                </Link>
+              </NavDropdown.Item>
             </NavDropdown>
-              <Link to="/Formulario" className="link">
-                CONTACTOS
-              </Link>
-              <Link to="/Cambios" className="link">
-                CAMBIOS
-              </Link>
-              <Link to="/Envios" className="link">
-                ENVIOS
-              </Link>
+            <Link to="/Formulario" className="link">
+              CONTACTOS
+            </Link>
+            <Link to="/Cambios" className="link">
+              CAMBIOS
+            </Link>
+            <Link to="/Envios" className="link">
+              ENVIOS
+            </Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control

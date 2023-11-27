@@ -55,7 +55,7 @@ const buzos = [
   },
   {
     id: 7,
-    tittulo: "NIKE-CLASSIC-ESTAMP",
+    titulo: "NIKE-CLASSIC-ESTAMP",
     img: nikeClasicaEstampado,
     precio: "$18.990",
     texto: "Talles del S al XXL",

@@ -24,7 +24,7 @@ const remeras = [
   },
   {
     id: 3,
-    tittulo: "REMERA",
+    titulo: "REMERA",
     img: jordan,
     precio: "$13.990",
     texto: "Talles del S al XXL",
@@ -43,6 +43,7 @@ const Remeras = () => {
     <nav className="prendas animate__animated animate__slideInUp">
       {remeras.map((item, index) => (
         <Remera
+          id={item.id}
           titulo={item.titulo}
           img={item.img}
           texto={item.texto}

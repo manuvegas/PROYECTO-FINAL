@@ -24,7 +24,7 @@ const joggins = [
   },
   {
     id: 3,
-    tittulo: "JOGGIN-JORDAN",
+    titulo: "JOGGIN-JORDAN",
     img: jogginJordan,
     precio: "$33.999",
     texto: "Talles del S al XXL",

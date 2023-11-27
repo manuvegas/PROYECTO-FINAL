@@ -25,7 +25,7 @@ const camperas = [
   },
   {
     id: 3,
-    tittulo: "CLASSIC-NIKE",
+    titulo: "CLASSIC-NIKE",
     img: clasicaNike,
     precio: "$24.000",
     texto: "Talles del S al XXL",

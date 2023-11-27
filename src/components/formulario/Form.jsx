@@ -1,7 +1,14 @@
 import React from "react";
 import "./Form.css";
+import { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Modal from "react-bootstrap/Modal";
 
 const Form = () => {
+  const [accion, mostrarAccion] = useState(false);
+  const ClickCerrar = () => mostrarAccion(false);
+  const ClickMostrar = () => mostrarAccion(true);
+
   return (
     <section className="animate__animated animate__slideInLeft">
       <h2>
@@ -68,7 +75,7 @@ const Form = () => {
           className="form_contactos"
         >
           <fieldset className="fieldset_contactos">
-            <legend className="legend_contactos">FORMULARIO</legend>
+            <h2>FORMULARIO</h2>
             <div className="flex_contactos">
               <label for="nombre" className="label_contactos">
                 Nombre
@@ -124,11 +131,41 @@ const Form = () => {
               <label for="mensaje" className="label_contactos">
                 Mensaje(opcional)
               </label>
-              <textarea name="mensaje" id="mensaje" cols="3" rows="" className="input_msj"></textarea>
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="3"
+                rows=""
+                className="input_msj"
+              ></textarea>
             </div>
             <div>
-              <input type="submit" value="ENVIAR" className="input_enviar" />
-              <input type="submit" value="BORRAR" className="input_enviar" />
+              <button
+                variant="dark"
+                className="input_enviar"
+                onClick={ClickMostrar}
+              >
+                ENVIAR
+              </button>
+
+              <Modal
+                show={accion}
+                onHide={ClickCerrar}
+                backdrop="static"
+              >
+                <Modal.Header closeButton>
+                  <Modal.Title>ENVIADO CON EXITO</Modal.Title>
+                </Modal.Header>
+                <Modal.Body>
+                  SU INFOMACION A SIDO ENVIADA CORRECTAMENTE,GRACIAS POR
+                  CONTACTARTE CON NOSOTROS!
+                </Modal.Body>
+                <Modal.Footer>
+                  <Button className="input_enviar" variant="dark" onClick={ClickCerrar}>
+                    CERRAR
+                  </Button>
+                </Modal.Footer>
+              </Modal>
             </div>
           </fieldset>
         </form>

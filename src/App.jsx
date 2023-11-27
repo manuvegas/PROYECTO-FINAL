@@ -11,6 +11,8 @@ import Joggins from "./components/joggins/Joggins";
 import Camperas from "./components/camperas/Camperas";
 import "animate.css/animate.min.css";
 import Inicio from "./components/inicio/inicio";
+import ComprasPrincipales from "./components/compras/ComprasPrincipales";
+import Register from "./components/login/Register";
 
 function App() {
   return (
@@ -29,6 +31,11 @@ function App() {
               <Route path="/camperas" element={<Camperas />} />
               <Route path="/joggins" element={<Joggins />} />
               <Route path="/inicio" element={< Inicio/>} />
+              <Route path="/compras/:id" element={< ComprasPrincipales/>} />    
+              <Route path="/" element={< Register/>} />
+              <Route path="/inicio" element={< Register/>} />
+              <Route path="/inicio" element={<Login />} />
+
             </Routes>
           </div>
         </div>
