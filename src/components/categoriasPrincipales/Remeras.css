@@ -44,3 +44,20 @@
   font-size: 2rem;
 }
 
+@media (max-width: 576px){
+  .prendas div{
+    width: max-content;
+    margin:20px;
+    font-size: 1.2rem;
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+  }
+  .prendas a{
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+
+}
+

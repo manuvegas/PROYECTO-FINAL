@@ -70,7 +70,7 @@
   margin: 12px 1.5rem 12px 1.5rem;
   padding: 5px;
 }
-.input_form:hover{
+.input_form:hover {
   border: solid 2px rgb(0, 0, 0);
 }
 
@@ -92,8 +92,9 @@
   background-color: rgba(16, 16, 16, 0.97);
   color: rgb(255, 255, 255);
   padding: 10px 20px;
-  
 }
+
+
 
 @media (min-width: 576px) {
   .form_contactos {
@@ -117,6 +118,20 @@
   }
 }
 
+@media (max-width: 576px){
+  .contactos_flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mapa_contactos {
+    width: 90%;
+    height: 33em;
+  }
+  .form_contactos{
+    width: 90%;
+  }
+}
 @media (min-width: 768px) {
   .form_contactos {
     font-size: 1.6rem;

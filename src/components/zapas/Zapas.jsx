@@ -1,38 +1,38 @@
 import React from "react";
-import airfoce from "../../assets/img/airforce.jpeg";
-import retro from "../../assets/img/retro.jpeg";
-import airmax from "../../assets/img/airmax.jpeg";
-import jordan from "../../assets/img/jordan.jpeg";
+import airforceZapa from "../../assets/img/airforce.jpeg";
+import retroZapa from "../../assets/img/retro.jpeg";
+import airmaxZapa from "../../assets/img/airmax.jpeg";
+import jordanZapa from "../../assets/img/jordan.jpeg";
 import Zapa from "./Zapa";
 import "./Zapas.css";
 import "animate.css/animate.min.css";
 
 const zapas = [
   {
-    id: 1,
+    id: 5,
     titulo: "AIR-FORCE",
-    img: airfoce,
+    img: airforceZapa,
     precio: "$60.700",
     texto: "Talles del 38 al 44",
   },
   {
-    id: 2,
+    id: 6,
     titulo: "RETRO-JORDAN",
-    img: retro,
+    img: retroZapa,
     precio: "$105.890",
     texto: "Talles del 38 al 44",
   },
   {
-    id: 3,
+    id: 7,
     titulo: "AIR-MAX",
-    img: airmax,
+    img: airmaxZapa,
     precio: "$88.800",
     texto: "Talles del 38 al 44",
   },
   {
-    id: 4,
+    id: 8,
     titulo: "JORDAN",
-    img: jordan,
+    img: jordanZapa,
     precio: "$90.990",
     texto: "Talles del 38 al 44",
   },
@@ -41,13 +41,14 @@ const zapas = [
 const Zapas = () => {
   return (
     <nav className="zapatillas animate__animated animate__slideInUp">
-      {zapas.map((item, index) => (
+      {zapas.map((item) => (
         <Zapa
+          id={item.id}
           titulo={item.titulo}
           img={item.img}
           texto={item.texto}
           precio={item.precio}
-          key={index}
+          key={item.id}
         />
       ))}
     </nav>

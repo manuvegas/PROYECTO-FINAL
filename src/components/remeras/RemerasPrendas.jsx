@@ -1,69 +1,69 @@
 import React from 'react'
 import "./RemerasPrendas.css";
-import airJordan from "../../assets/img(remeras)/airJordan.jpeg";
-import estampadaClasica from "../../assets/img(remeras)/estampada clasica.jpeg";
-import jordanEstampada from "../../assets/img(remeras)/jordan estampada.jpeg";
-import nikeAir from "../../assets/img(remeras)/nike air.jpeg";
-import nikeClasica from "../../assets/img(remeras)/nike clasica.jpeg";
-import nikeNba from "../../assets/img(remeras)/nike nba.jpeg";
-import remeraLisa from "../../assets/img(remeras)/remera lisa.jpeg";
-import remeraOverside from "../../assets/img(remeras)/remera overside.jpeg";
+import airJordanRemera from "../../assets/img(remeras)/airJordan.jpeg";
+import estampadaClasicaRemera from "../../assets/img(remeras)/estampada clasica.jpeg";
+import jordanEstampadaRemera from "../../assets/img(remeras)/jordan estampada.jpeg";
+import nikeAirRemera from "../../assets/img(remeras)/nike air.jpeg";
+import nikeClasicaRemera from "../../assets/img(remeras)/nike clasica.jpeg";
+import nikeNbaRemera from "../../assets/img(remeras)/nike nba.jpeg";
+import remeraLisaRemera from "../../assets/img(remeras)/remera lisa.jpeg";
+import remeraOversideRemera from "../../assets/img(remeras)/remera overside.jpeg";
 import RemeraPrenda from "./RemeraPrenda";
 
 const remerasPrendas = [
   {
-    id: 1,
+    id: 9,
     titulo: "AIR-JORDAN",
-    img: airJordan,
+    img: airJordanRemera,
     precio: "$20.999",
     texto: "Talles del S al XXL",
   },
   {
-    id: 2,
+    id: 10,
     titulo: "ESTAMPADA CLASSIC",
-    img: estampadaClasica,
+    img: estampadaClasicaRemera,
     precio: "$15.890",
     texto: "Talles del S al XXL",
   },
   {
-    id: 3,
-    tittulo: "JORDAN ESTAMPADA",
-    img: jordanEstampada,
+    id: 11,
+    titulo: "JORDAN ESTAMPADA",
+    img: jordanEstampadaRemera,
     precio: "$17.590",
     texto: "Talles del S al XXL",
   },
   {
-    id: 4,
+    id: 12,
     titulo: "NIKE-AIR",
-    img: nikeAir,
+    img: nikeAirRemera,
     precio: "$19.990",
     texto: "Talles del S al XXL",
   },
   {
-    id: 5,
+    id: 13,
     titulo: "NIKE CLASSIC",
-    img: nikeClasica,
+    img: nikeClasicaRemera,
     precio: "$21.999",
     texto: "Talles del S al XXL",
   },
   {
-    id: 6,
+    id: 14,
     titulo: "NIKE-NBA",
-    img: nikeNba,
+    img: nikeNbaRemera,
     precio: "$16.890",
     texto: "Talles del S al XXL",
   },
   {
-    id: 7,
-    tittulo: "REMERA LISA",
-    img: remeraLisa,
+    id: 15,
+    titulo: "REMERA LISA",
+    img: remeraLisaRemera,
     precio: "$13.990",
     texto: "Talles del S al XXL",
   },
   {
-    id: 8,
+    id: 16,
     titulo: "REMERA OVERSIDE",
-    img: remeraOverside,
+    img: remeraOversideRemera,
     precio: "$17.990",
     texto: "Talles del S al XXL",
   },
@@ -72,13 +72,14 @@ const remerasPrendas = [
 const RemerasPrendas = () => {
   return (
     <nav className="prendas animate__animated animate__slideInUp">
-      {remerasPrendas.map((item, index) => (
+      {remerasPrendas.map((item) => (
         <RemeraPrenda
+          id={item.id}
           titulo={item.titulo}
           img={item.img}
           texto={item.texto}
           precio={item.precio}
-          key={index}
+          key={item.id}
         />
       ))}
     </nav>

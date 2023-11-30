@@ -148,11 +148,7 @@ const Form = () => {
                 ENVIAR
               </button>
 
-              <Modal
-                show={accion}
-                onHide={ClickCerrar}
-                backdrop="static"
-              >
+              <Modal show={accion} onHide={ClickCerrar} backdrop="static">
                 <Modal.Header closeButton>
                   <Modal.Title>ENVIADO CON EXITO</Modal.Title>
                 </Modal.Header>
@@ -161,8 +157,12 @@ const Form = () => {
                   CONTACTARTE CON NOSOTROS!
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button className="input_enviar" variant="dark" onClick={ClickCerrar}>
-                    CERRAR
+                  <Button
+                    className="input_enviar"
+                    variant="dark"
+                    onClick={ClickCerrar}
+                  >
+                    ENTENDIDO
                   </Button>
                 </Modal.Footer>
               </Modal>

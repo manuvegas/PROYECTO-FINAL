@@ -12,56 +12,56 @@ import "./Buzos.css"
 
 const buzos = [
   {
-    id: 1,
+    id: 17,
     titulo: "ESTAMPADO-NIKE",
     img: estampadoNike,
     precio: "$20.999",
     texto: "Talles del S al XXL",
   },
   {
-    id: 2,
+    id: 18,
     titulo: "JORDAN-ESTAMP-AIR",
     img: jordanEstampada,
     precio: "$23.890",
     texto: "Talles del S al XXL",
   },
   {
-    id: 3,
-    tittulo: "JORDAN-NIKE",
+    id: 19,
+    titulo: "JORDAN-NIKE",
     img: jordanNike,
     precio: "$28.990",
     texto: "Talles del S al XXL",
   },
   {
-    id: 4,
+    id: 20,
     titulo: "JORDAN-OVERSIDE",
     img: jordanOverside,
     precio: "$34.999",
     texto: "Talles del S al XXL",
   },
   {
-    id: 5,
+    id: 21,
     titulo: "NIKE-AIR-COLORS",
     img: nikeAirColors,
     precio: "$21.600",
     texto: "Talles del S al XXL",
   },
   {
-    id: 6,
+    id: 22,
     titulo: "NIKE-AIR",
     img: nikeAir,
     precio: "$19.999",
     texto: "Talles del S al XXL",
   },
   {
-    id: 7,
+    id: 23,
     titulo: "NIKE-CLASSIC-ESTAMP",
     img: nikeClasicaEstampado,
     precio: "$18.990",
     texto: "Talles del S al XXL",
   },
   {
-    id: 8,
+    id: 24,
     titulo: "NIKE-CLASSIC",
     img: nikeClasica,
     precio: "$27.890",
@@ -73,6 +73,7 @@ const Buzos = () => {
     <nav className="prendas animate__animated animate__slideInUp">
       {buzos.map((item, index) => (
         <Buzo
+          id={item.id}
           titulo={item.titulo}
           img={item.img}
           texto={item.texto}

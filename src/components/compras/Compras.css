@@ -1,133 +1,161 @@
 
+.imgCompras img {
+  width: 20em;
+}
 
-.imgCompras:hover{
-    box-shadow:5px 10px 20px 1px rgba(255,255, 255, 0.273) ;
-    transition: all 0.7s linear;
+.imgCompras:hover {
+  box-shadow: 5px 10px 20px 1px rgba(255, 255, 255, 0.273);
+  transition: all 0.7s linear;
 }
-.comprasItems{
-    margin: 4rem 2rem;
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    gap: 30px;
+
+.comprasItems {
+  margin: 2rem 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
 }
+
 .tituloCompras {
-    color: white;
-    
+  color: white;
 }
-.tituloCompras h1{
-    text-align: center;
-    color: rgb(254, 254, 254);
-    font-weight: 300;
-    font-size: 2.9rem;
-    font-family: fantasy;
-    margin-top: 1rem;
+
+.tituloCompras h1 {
+  text-align: center;
+  color: rgb(254, 254, 254);
+  font-weight: 300;
+  font-size: 2.9rem;
+  font-family: fantasy;
+  margin-top: 1rem;
 }
-.tituloCompras h3{
-    font-size: 2.5rem;
-    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+
+.tituloCompras h3 {
+  font-size: 2.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 .cuotas {
-    margin-top: 2em;
-    color: red;
-    font-size: 1.2rem;
+  margin-top: 1em;
+  color: red;
+  font-size: 1.2rem;
 }
-.colorCompras{
-    color: white;
-    margin-top: 2em;
-
+.colorCompras {
+  color: white;
+  margin-top: 1em;
 }
-.colorBackground{
-    margin-top: 1rem;
-    background-color: white;
-    color: white;
-    display: block;
-    border-radius: 2rem;
-    display: inline-block;
-}
-
-.tallesCompras{
-    color: white;
-    margin-top: 2rem;
+.colorBackground {
+  margin-top: 1rem;
+  background-color: white;
+  color: white;
+  display: block;
+  border-radius: 2rem;
+  display: inline-block;
 }
 
-.tallesCompras label{
-    display: inline-block;
-    margin-left: 1rem;
-    font-size: 1.2rem;
+.tallesCompras {
+  color: white;
+  margin-top: 2rem;
 }
 
-.buttonDetalles{
-    margin-top: 2rem;
-    width: 70%;
-    height: 20%;
-    background-color: rgb(30, 30, 30);
-    color: rgb(252, 252, 252);
-    border: solid 2px;
-}
-.buttonDetalles:hover{
-    background-color: white;
-    color: black;
-    border: solid 2px;
-}
-.cardDetalles{
-    margin-top: 10px;
-}
-.buttonAgregar{
-    border-radius: 5px;
-    border: solid 2px;
-    margin-top: 2rem;
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
-    background-color: transparent;   
+.tallesCompras label {
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 1rem;
 }
 
-.buttonAgregar:hover{
-    background-color: white;
-    color: black;
-    border: solid 2px;
+.buttonDetalles {
+  margin-top: 2rem;
+  width: 70%;
+  height: 20%;
+  background-color: rgb(30, 30, 30);
+  color: rgb(252, 252, 252);
+  padding: 11px;
+  border: solid 2px;
 }
-@media (max-width: 576px){
-    .comprasItems{
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-    }
+.buttonDetalles:hover {
+  background-color: rgb(30, 30, 30);
+  color: black;
+  border: solid 2px;
 }
-
-@media (min-width: 576px){
-    .comprasItems{
-        display: flex;
-        flex-direction: column;
-        align-items: baseline;
-    }
+.cardDetalles {
+  margin-top: 10px;
 }
-@media (min-width: 768px){
-    .comprasItems{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-}
-@media (min-width: 992px){
-    .comprasItems{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+.buttonAgregar {
+  border-radius: 5px;
+  border: solid 2px;
+  padding:10px ;
+  margin-top: 1rem;
+  font-size: 1rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(30, 30, 30);
 }
 
+.buttonAgregar:hover {
+  background-color: white;
+  color: black;
+  border: solid 2px;
+}
+.contenedorCompras{
+  margin-left: 12px;
+}
+@media (max-width: 576px) {
+  .imgCompras img{
+    width:100%
+  }
+  .tituloCompras h1{
+    text-align:left ;
+  }
 
+  .comprasItems {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+  }
+}
 
+@media (min-width: 576px) {
+  .imgCompras img{
+    width: 30em;
+  }
+  .tituloCompras h1{
+    text-align:left ;
+  }
 
-
-
-
-
-
-
-
-
-
-
+  .comprasItems {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (min-width: 768px) {
+  
+  .comprasItems {
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 992px) {
+  .tallesCompras{
+    font-size: 20px;
+  }
+  .cuotas{
+    font-size: 1.5rem;
+  }
+  .colorCompras{
+    font-size: 1.5rem;
+  }
+  .comprasItems {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+@media (min-width: 1200px){
+  .colorCompras{
+    font-size: 1.6rem;
+  }
+  .cuotas{
+    font-size: 1.6rem;
+    
+  }
+}

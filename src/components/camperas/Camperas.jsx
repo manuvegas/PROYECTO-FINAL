@@ -10,42 +10,42 @@ import  Campera from "./Campera";
 
 const camperas = [
   {
-    id: 1,
+    id: 25,
     titulo: "NIKE-BORD",
     img: bordandoNike,
     precio: "$26.790",
     texto: "Talles del S al XXL",
   },
   {
-    id: 2,
+    id: 26,
     titulo: "CAMPERA-FRIZA",
     img: camperaFriza,
     precio: "$22.890",
     texto: "Talles del S al XXL",
   },
   {
-    id: 3,
+    id: 27,
     titulo: "CLASSIC-NIKE",
     img: clasicaNike,
     precio: "$24.000",
     texto: "Talles del S al XXL",
   },
   {
-    id: 4,
+    id: 28,
     titulo: "JORDAN-NIKE",
     img: jordanNike,
     precio: "$26.500",
     texto: "Talles del S al XXL",
   },
   {
-    id: 5,
+    id: 29,
     titulo: "NIKE-AIR",
     img: nikeAir,
     precio: "$18.990",
     texto: "Talles del S al XXL",
   },
   {
-    id: 6,
+    id: 30,
     titulo: "NIKE-FRIZADO",
     img: nikeJacket,
     precio: "$47.999",

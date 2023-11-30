@@ -9,35 +9,35 @@ import "./Joggins.css"
 
 const joggins = [
   {
-    id: 1,
+    id: 31,
     titulo: "CLASSI NIKE",
     img: classicNike,
     precio: "$36.590",
     texto: "Talles del S al XXL",
   },
   {
-    id: 2,
+    id: 32,
     titulo: "ESTAMP-NIKE",
     img: estampadoNike,
     precio: "$26.890",
     texto: "Talles del S al XXL",
   },
   {
-    id: 3,
+    id: 33,
     titulo: "JOGGIN-JORDAN",
     img: jogginJordan,
     precio: "$33.999",
     texto: "Talles del S al XXL",
   },
   {
-    id: 4,
+    id: 34,
     titulo: "NIKE-CARGO",
     img: nikeCargo,
     precio: "$38.999",
     texto: "Talles del S al XXL",
   },
   {
-    id: 5,
+    id: 35,
     titulo: "NIKE-FRIZADO",
     img: nikeFrizada,
     precio: "$17.990",
@@ -48,13 +48,14 @@ const joggins = [
 const Joggins = () => {
   return (
     <nav className="prendas animate__animated animate__slideInUp">
-      {joggins.map((item, index) => (
+      {joggins.map((item) => (
         <Joggin
+          id={item.id}
           titulo={item.titulo}
           img={item.img}
           texto={item.texto}
           precio={item.precio}
-          key={index}
+          key={item.id}
         />
       ))}
     </nav>
