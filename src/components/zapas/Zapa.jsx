@@ -3,6 +3,7 @@ import "./Zapas.css";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
 
+
 function Zapa({img, titulo, texto, precio,id}){
   return (
     <div className="card container p-1">

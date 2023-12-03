@@ -19,18 +19,18 @@ function CompraPrincipal({ img, precio, prenda, cuotas }) {
           <h3>{precio}</h3>
         </div>
         <div className="cuotas">
-          <span>3 CUOTAS SIN INTERES DE {cuotas} </span>
+          <span>3 CUOTAS SIN INTERES DE ${cuotas} </span>
         </div>
         <form action="">
           <div className="colorCompras">
-            <label for="color">COLOR:</label>
+            <label htmlFor="color">COLOR:</label>
             <div>
               <span className="colorBackground">......</span>
             </div>
           </div>
           <div className="tallesCompras">
             <h4>TALLE:</h4>
-            <label className="form-check-label" for="flexRadioDefault1">
+            <label className="form-check-label" htmlFor="flexRadioDefault1">
               S
             </label>
             <input
@@ -39,7 +39,7 @@ function CompraPrincipal({ img, precio, prenda, cuotas }) {
               name="flexRadioDefault"
               id="flexRadioDefault1"
             />
-            <label class="form-check-label" for="flexRadioDefault1">
+            <label className="form-check-label" htmlFor="flexRadioDefault1">
               M
             </label>
             <input
@@ -48,7 +48,7 @@ function CompraPrincipal({ img, precio, prenda, cuotas }) {
               name="flexRadioDefault"
               id="flexRadioDefault1"
             />
-            <label class="form-check-label" for="flexRadioDefault1">
+            <label className="form-check-label" htmlFor="flexRadioDefault1">
               L
             </label>
             <input
@@ -57,7 +57,7 @@ function CompraPrincipal({ img, precio, prenda, cuotas }) {
               name="flexRadioDefault"
               id="flexRadioDefault1"
             />
-            <label className="form-check-label" for="flexRadioDefault1">
+            <label className="form-check-label" htmlFor="flexRadioDefault1">
               XL
             </label>
             <input
@@ -66,7 +66,7 @@ function CompraPrincipal({ img, precio, prenda, cuotas }) {
               name="flexRadioDefault"
               id="flexRadioDefault1"
             />
-            <label className="form-check-label" for="flexRadioDefault1">
+            <label className="form-check-label" htmlFor="flexRadioDefault1">
               XXL
             </label>
             <input

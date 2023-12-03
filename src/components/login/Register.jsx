@@ -11,43 +11,43 @@ const Register = () => {
             <h2 className="h2_inicio">CREAR CUENTA</h2>
             <div className="form-floating mb-3 datos">
               <input
-                type="email"
+                type="nombre"
                 className="form-control"
-                id="floatingInput"
+                id="nombre"
                 placeholder="name@example.com"
                 required
               />
-              <label for="floatingInput">Nombre</label>
+              <label htmlFor="floatingInput">Nombre</label>
             </div>
             <div className="form-floating mb-3 datos">
               <input
                 type="email"
                 className="form-control"
-                id="floatingInput"
+                id="email"
                 placeholder="name@example.com"
                 required
               />
-              <label for="floatingInput">Email</label>
+              <label htmlFor="floatingInput">Email</label>
             </div>
             <div className="form-floating mb-3 datos">
               <input
-                type="email"
+                type="telefono"
                 className="form-control"
-                id="floatingInput"
+                id="telefono"
                 placeholder="name@example.com"
                 required
               />
-              <label for="floatingInput">Telefono(Opcional)</label>
+              <label htmlFor="floatingInput">Telefono(Opcional)</label>
             </div>
             <div className="form-floating mb-3 datos">
               <input
                 type="password"
                 className="form-control"
-                id="floatingPassword"
+                id="password"
                 placeholder="Password"
                
               />
-              <label for="floatingPassword">Password</label>
+              <label htmlFor="floatingPassword">Password</label>
             </div>
             <div className="form-floating mb-3 datos">
               <input
@@ -57,7 +57,7 @@ const Register = () => {
                 placeholder="Password"
                 required
               />
-              <label for="floatingInput">Confirmar Password</label>
+              <label htmlFor="floatingInput">Confirmar Password</label>
             </div>
             <button>
               <Link className="boton_sesion" to="/inicio">

@@ -45,6 +45,10 @@
 }
 
 @media (max-width: 576px){
+
+  .prendas p{
+    font-size: 1.2rem;
+  }
   .prendas div{
     width: max-content;
     margin:20px;
@@ -57,7 +61,11 @@
     font-size: 1.2rem;
     margin-top: 10px;
   }
-
-
+}
+@media (min-width: 576px){
+  .prendas p {
+    font-size: 1.5rem;
+  }
+  
 }
 

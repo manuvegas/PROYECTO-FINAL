@@ -77,7 +77,7 @@ const Form = () => {
           <fieldset className="fieldset_contactos">
             <h2>FORMULARIO</h2>
             <div className="flex_contactos">
-              <label for="nombre" className="label_contactos">
+              <label htmlFor="nombre" className="label_contactos">
                 Nombre
               </label>
               <input
@@ -90,7 +90,7 @@ const Form = () => {
               />
             </div>
             <div className="flex_contactos">
-              <label for="apellido" className="label_contactos">
+              <label htmlFor="apellido" className="label_contactos">
                 Apellido
               </label>
               <input
@@ -103,7 +103,7 @@ const Form = () => {
               />
             </div>
             <div className="flex_contactos">
-              <label for="correo" className="label_contactos">
+              <label htmlFor="correo" className="label_contactos">
                 Correo electronico
               </label>
               <input
@@ -115,7 +115,7 @@ const Form = () => {
               />
             </div>
             <div className="flex_contactos">
-              <label for="telefono" className="label_contactos">
+              <label htmlFor="telefono" className="label_contactos">
                 Telefono
               </label>
               <input
@@ -128,7 +128,7 @@ const Form = () => {
               />
             </div>
             <div className="flex_contactos">
-              <label for="mensaje" className="label_contactos">
+              <label htmlFor="mensaje" className="label_contactos">
                 Mensaje(opcional)
               </label>
               <textarea

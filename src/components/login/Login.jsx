@@ -18,7 +18,7 @@ const Login = () => {
                 placeholder="name@example.com"
                 required
               />
-              <label for="floatingInput">Email</label>
+              <label htmlFor="floatingInput">Email</label>
             </div>
             <div className="form-floating datos">
               <input
@@ -29,7 +29,7 @@ const Login = () => {
                 placeholder="Password"
                 required
               />
-              <label for="floatingPassword">Password</label>
+              <label htmlFor="floatingPassword">Password</label>
             </div>
             <button>
               <Link className="boton_sesion" to="/inicio">
