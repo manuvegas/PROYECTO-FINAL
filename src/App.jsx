@@ -31,7 +31,7 @@ function App() {
               <Route path="/camperas" element={<Camperas />} />
               <Route path="/joggins" element={<Joggins />} />
               <Route path="/inicio" element={< Inicio/>} />
-              <Route path="/compras/:id" element={< ComprasPrincipales/>} />    
+              <Route path="/comprasPrincipales/:id" element={< ComprasPrincipales/>} />    
               <Route path="/" element={< Register/>} />
               <Route path="/inicio" element={< Register/>} />
               <Route path="/inicio" element={<Login />} />
