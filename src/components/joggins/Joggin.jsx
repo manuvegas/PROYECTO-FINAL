@@ -12,7 +12,7 @@ function Joggin({titulo,img,texto,precio,id}) {
             <h3 className="card-title fs-1">{titulo}</h3>
             <p className="card-text">{texto}</p>
             <span>{precio}</span>
-            <Link to="" className="btn">
+            <Link to={`/comprasPrincipales/${id}`} className="btn">
               COMPRAR
             </Link>
             <Link to="" className="btn">

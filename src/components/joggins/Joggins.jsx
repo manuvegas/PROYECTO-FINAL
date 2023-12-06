@@ -9,35 +9,35 @@ import "./Joggins.css"
 
 const joggins = [
   {
-    id: 31,
-    titulo: "CLASSI NIKE",
+    id: 23,
+    titulo: "CLASSIC NIKE",
     img: classicNike,
     precio: "$36.590",
     texto: "Talles del S al XXL",
   },
   {
-    id: 32,
+    id: 24,
     titulo: "ESTAMP-NIKE",
     img: estampadoNike,
     precio: "$26.890",
     texto: "Talles del S al XXL",
   },
   {
-    id: 33,
+    id: 25,
     titulo: "JOGGIN-JORDAN",
     img: jogginJordan,
     precio: "$33.999",
     texto: "Talles del S al XXL",
   },
   {
-    id: 34,
+    id: 26,
     titulo: "NIKE-CARGO",
     img: nikeCargo,
     precio: "$38.999",
     texto: "Talles del S al XXL",
   },
   {
-    id: 35,
+    id: 27,
     titulo: "NIKE-FRIZADO",
     img: nikeFrizada,
     precio: "$17.990",
