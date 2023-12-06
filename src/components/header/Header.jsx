@@ -50,22 +50,22 @@ function Header(id) {
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item>
-                <Link to={`/compras/${id}`} className="link">
+                <Link to={`/comprasPrincipales/${id}`} className="link">
                   AIRFORCE
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to={`/compras/${id}`} className="link">
+                <Link to={`/comprasPrincipales/${id}`} className="link">
                   RETRO-JORDAN-NIKE
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to={`/compras/${id}`} className="link">
+                <Link to={`/comprasPrincipales/${id}`} className="link">
                   JORDAN-NIKE
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Item>
-                <Link to={`/compras/${id}`} className="link">
+                <Link to={`/comprasPrincipales/${id}`} className="link">
                   AII-MAX
                 </Link>
               </NavDropdown.Item>
