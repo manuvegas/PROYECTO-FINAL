@@ -58,6 +58,7 @@ const Camperas = () => {
     <nav className="prendas animate__animated animate__slideInUp">
       {camperas.map((item, index) => (
         <Campera
+          id={item.id}
           titulo={item.titulo}
           img={item.img}
           texto={item.texto}

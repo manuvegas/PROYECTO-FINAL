@@ -37,38 +37,18 @@ function Header(id) {
                   BUZOS
                 </Link>
               </NavDropdown.Item>
+              <NavDropdown.Divider />
               <NavDropdown.Item>
                 <Link to="/camperas" className="link">
                   CAMPERAS
                 </Link>
               </NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item>
                 <Link to="/joggins" className="link">
                   JOGGINS
                 </Link>
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item>
-                <Link to={`/comprasPrincipales/${id}`} className="link">
-                  AIRFORCE
-                </Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link to={`/comprasPrincipales/${id}`} className="link">
-                  RETRO-JORDAN-NIKE
-                </Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link to={`/comprasPrincipales/${id}`} className="link">
-                  JORDAN-NIKE
-                </Link>
-              </NavDropdown.Item>
-              <NavDropdown.Item>
-                <Link to={`/comprasPrincipales/${id}`} className="link">
-                  AII-MAX
-                </Link>
-              </NavDropdown.Item>
             </NavDropdown>
             <Link to="/Formulario" className="link">
               CONTACTOS
